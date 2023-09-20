@@ -1,0 +1,11 @@
+.logout{
+    background-color: var(--color-primary);
+    border-radius: var(--size-border-radius);
+    width: max-content;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+ 
+    
+}

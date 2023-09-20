@@ -1,0 +1,38 @@
+.maincontainer{
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    gap: 15px;
+}
+.title{
+font-weight: 700;
+}
+.desc{
+font-size: 15px;
+color: #999;
+}
+
+/*.post:nth-child(odd){
+    flex-direction: row-reverse;
+}
+ .post:nth-child(even){
+background-color: black;
+} */
+.post
+{
+flex-grow: 1;
+border: 1px solid #555;
+transition: all .3s ease-in-out;
+border-radius:15px;
+}
+.post:hover{
+    background-color: black;
+    border:1px solid white;
+}
+.imagecontainer{
+    position: relative;
+    height: 200px;
+}
+.image{
+    object-fit: cover;    
+    border-radius: 15px;
+}
